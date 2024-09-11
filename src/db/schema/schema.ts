@@ -1,5 +1,6 @@
 import { text, pgTable, integer, timestamp } from 'drizzle-orm/pg-core'
 import { createId } from '@paralleldrive/cuid2'
+import { env } from '../../http/env'
 
 export const goals = pgTable('goals', {
   id: text('id')

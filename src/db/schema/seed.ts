@@ -1,6 +1,7 @@
 // popula o banco de dados com dados ficticios
 import dayjs from 'dayjs'
 import { client, db } from '.'
+import { env } from '../../http/env'
 import { goalCompletions, goals } from './schema'
 
 async function seed() {
