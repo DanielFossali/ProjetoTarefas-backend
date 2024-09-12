@@ -1,6 +1,6 @@
 import { title } from "process"
-import { db } from "../db/schema"
-import { goals } from "../db/schema/schema"
+import { db } from "../db"
+import { goals } from "../db/schema"
 
 interface CreateGoalRequest { 
     title: string
